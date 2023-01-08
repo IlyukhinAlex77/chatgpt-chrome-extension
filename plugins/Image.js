@@ -6,7 +6,7 @@ export default {
     `First check if my message includes the word "image", "photo", "picture", or "drawing"`,
     `If it does include one of those words then at the very end of your reply you should include an image description enclosed in double curly brackets.`,
     `If it does not include one of those words then don't add an image description.`,
-  ],
+  ],//todo
   parse: async (reply) => {
     // Match anything between {{ }}
     const regex = /\{\{([^\]]+?)\}\}/g;
